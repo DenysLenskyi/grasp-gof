@@ -4,21 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/DishFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/DesertDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/MainDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/SaladDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/SoupDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/enums/DishType.java" afterDir="false" />
+    <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit. Factory Method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/DesertDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/MainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/SoupDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/american/AmericanDesertDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/american/AmericanMainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/american/AmericanSoupDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/japanese/JapaneseDesertDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/japanese/JapaneseMainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/japanese/JapaneseSoupDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/ukrainian/UkrainianDesertDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/ukrainian/UkrainianMainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/ukrainian/UkrainianSoupDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/enums/DishType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/MealFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/kitchen/AmericanMealFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/kitchen/JapaneseMealFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/kitchen/UkrainianMealFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/DishFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/DishFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/DesertDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/DesertDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/MainDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/MainDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/SaladDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/SaladDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/SoupDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/SoupDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/enums/DishType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/enums/DishType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +44,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="factory-method" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,7 +70,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/deka/foxminded/GraspGof/GraspGofPatterns/src/main/java/com/foxminded/patterns/abstractfactory/dish",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,17 +81,37 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.foxminded.patterns.abstractfactory.mealfactory.kitchen" />
+      <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.american" />
+      <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.japanese" />
+      <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen" />
       <recent name="com.foxminded.patterns.factory.dish" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.foxminded.patterns.abstractfactory.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.factory.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.factorymethod.Main" />
       <module name="GraspGofPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.foxminded.patterns.factory.dish.*" />
+          <option name="PATTERN" value="com.foxminded.patterns.factorymethod.dish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.foxminded.patterns.abstractfactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.abstractfactory.Main" />
+      <module name="GraspGofPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxminded.patterns.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.foxminded.patterns.abstractfactory.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -90,8 +136,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707405313154</updated>
-      <workItem from="1707405314330" duration="3429000" />
+      <workItem from="1707405314330" duration="8139000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit. Factory Method">
+      <created>1707410357130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707410357130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit. Factory Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit. Factory Method" />
   </component>
 </project>
