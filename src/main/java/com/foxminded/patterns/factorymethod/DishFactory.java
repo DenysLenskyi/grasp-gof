@@ -1,7 +1,7 @@
-package com.foxminded.patterns.factory;
+package com.foxminded.patterns.factorymethod;
 
-import com.foxminded.patterns.factory.dish.*;
-import com.foxminded.patterns.factory.enums.DishType;
+import com.foxminded.patterns.factorymethod.dish.*;
+import com.foxminded.patterns.factorymethod.enums.DishType;
 
 import java.util.List;
 
