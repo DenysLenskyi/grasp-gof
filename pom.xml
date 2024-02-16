@@ -35,7 +35,7 @@
             <configuration>
                <archive>
                   <manifest>
-                     <mainClass>com.foxminded.patterns.factorymethod.Main</mainClass>
+                     <mainClass>com.foxminded.patterns.creational.factorymethod.Main</mainClass>
                   </manifest>
                </archive>
                <descriptorRefs>
