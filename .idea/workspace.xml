@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit. Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/DesertDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/MainDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/SoupDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/american/AmericanDesertDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/american/AmericanMainDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/american/AmericanSoupDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/japanese/JapaneseDesertDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/japanese/JapaneseMainDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/japanese/JapaneseSoupDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/ukrainian/UkrainianDesertDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/ukrainian/UkrainianMainDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish/type/kitchen/ukrainian/UkrainianSoupDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/enums/DishType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/MealFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/kitchen/AmericanMealFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/kitchen/JapaneseMealFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/mealfactory/kitchen/UkrainianMealFactory.java" afterDir="false" />
+    <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit. Prototype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/DishFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/DishFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/DesertDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/DesertDish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/MainDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/MainDish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/SaladDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/SaladDish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/dish/SoupDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/dish/SoupDish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factory/enums/DishType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/factorymethod/enums/DishType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Automobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +17,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="factory-method" />
+        <entry key="$PROJECT_DIR$" value="abstract-factory" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,20 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/deka/foxminded/GraspGof/GraspGofPatterns/src/main/java/com/foxminded/patterns/abstractfactory/dish",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/deka/foxminded/GraspGof/GraspGofPatterns/src/main/java/com/foxminded/patterns/abstractfactory/dish&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/abstractfactory/dish" />
@@ -92,7 +66,7 @@
       <recent name="com.foxminded.patterns.factory.dish" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.foxminded.patterns.abstractfactory.Main">
+  <component name="RunManager" selected="Application.com.foxminded.patterns.prototype.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.factorymethod.Main" />
       <module name="GraspGofPatterns" />
@@ -119,8 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.foxminded.patterns.prototype.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.prototype.Main" />
+      <module name="GraspGofPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxminded.patterns.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.foxminded.patterns.prototype.Main" />
         <item itemvalue="Application.com.foxminded.patterns.abstractfactory.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -145,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707410357130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit. Prototype">
+      <created>1708040308346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708040308346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit. Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit. Factory Method" />
+    <MESSAGE value="initial commit. Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit. Prototype" />
   </component>
 </project>
