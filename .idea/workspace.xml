@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/composite/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/composite/CounterLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/composite/CounterNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/BeckonPizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/MushroomsPizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/PizzaDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="bridge" />
+        <entry key="$PROJECT_DIR$" value="composite" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,33 +70,20 @@
       <recent name="com.foxminded.patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.foxminded.patterns.structural.decorator" />
       <recent name="com.foxminded.patterns.structural.bridge.kitchen" />
       <recent name="com.foxminded.patterns.structural.bridge.dish" />
       <recent name="com.foxminded.patterns.abstractfactory.mealfactory.kitchen" />
       <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.american" />
-      <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.japanese" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.foxminded.patterns.structural.decorator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.structural.composite.Main" />
       <module name="GraspGofPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.foxminded.patterns.structural.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.foxminded.patterns.creational.builder.v2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.builder.v2.Main" />
-      <module name="GraspGofPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.foxminded.patterns.creational.builder.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.foxminded.patterns.structural.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.structural.decorator.Main" />
+      <module name="GraspGofPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxminded.patterns.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.foxminded.patterns.structural.decorator.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.foxminded.patterns.structural.bridge.Main" />
         <item itemvalue="Application.com.foxminded.patterns.structural.adapter.Main" />
         <item itemvalue="Application.com.foxminded.patterns.creational.singleton.Main" />
-        <item itemvalue="Application.com.foxminded.patterns.creational.builder.v2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708460849291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1708465199036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708465199036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
