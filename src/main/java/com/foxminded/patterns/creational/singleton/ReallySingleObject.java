@@ -5,9 +5,10 @@ import java.util.List;
 
 public class ReallySingleObject {
   private int id;
-  private static List<ReallySingleObject> instances = new ArrayList<>(10);
+  private static List<ReallySingleObject> instances;
 
   static {
+    instances = new ArrayList<>(10);
     int i = 0;
     while (i < 10) {
       instances.add(new ReallySingleObject(i));
