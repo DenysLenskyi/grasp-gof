@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit. Prototype">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/adapter/FrenchLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/adapter/FrenchLibraryAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/adapter/FrenchLibraryEnglish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/adapter/FrenchLibraryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/adapter/Main.java" afterDir="false" />
+    <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/dish/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/dish/FirstDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/dish/SecondDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/dish/ThirdDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/enums/DishType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/kitchen/AmericanKitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/kitchen/JapaneseKitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/kitchen/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/bridge/kitchen/UkrainianKitchen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,15 +26,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="adapter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,27 +74,14 @@
       <recent name="com.foxminded.patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.foxminded.patterns.structural.bridge.kitchen" />
+      <recent name="com.foxminded.patterns.structural.bridge.dish" />
       <recent name="com.foxminded.patterns.abstractfactory.mealfactory.kitchen" />
       <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.american" />
       <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.japanese" />
-      <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen" />
-      <recent name="com.foxminded.patterns.factory.dish" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.foxminded.patterns.structural.adapter.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.factorymethod.Main" />
-      <module name="GraspGofPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.foxminded.patterns.creational.factorymethod.dish.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.foxminded.patterns.structural.bridge.Main">
     <configuration name="com.foxminded.patterns.creational.builder.v2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.builder.v2.Main" />
       <module name="GraspGofPatterns" />
@@ -142,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.foxminded.patterns.structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.structural.bridge.Main" />
+      <module name="GraspGofPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxminded.patterns.structural.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.foxminded.patterns.structural.bridge.Main" />
         <item itemvalue="Application.com.foxminded.patterns.structural.adapter.Main" />
         <item itemvalue="Application.com.foxminded.patterns.creational.singleton.Main" />
         <item itemvalue="Application.com.foxminded.patterns.creational.builder.v2.Main" />
         <item itemvalue="Application.com.foxminded.patterns.prototype.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708040308346</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1708448235419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708448235419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit. Factory Method" />
     <MESSAGE value="initial commit. Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit. Prototype" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
