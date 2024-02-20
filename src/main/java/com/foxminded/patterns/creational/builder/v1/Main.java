@@ -1,4 +1,4 @@
-package com.foxminded.patterns.creational.builder;
+package com.foxminded.patterns.creational.builder.v1;
 
 public class Main {
   public static void main(String[] args) {

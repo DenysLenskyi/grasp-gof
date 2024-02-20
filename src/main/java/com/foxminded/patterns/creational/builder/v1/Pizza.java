@@ -1,4 +1,4 @@
-package com.foxminded.patterns.creational.builder;
+package com.foxminded.patterns.creational.builder.v1;
 
 import java.util.ArrayList;
 import java.util.List;

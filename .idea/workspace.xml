@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit. Prototype">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v2/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Automobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/Ingredients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v1/Ingredients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v1/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/PizzaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v1/PizzaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/PizzaBuilderHawaii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v1/PizzaBuilderHawaii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/PizzaBuilderSeafood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/creational/builder/v1/PizzaBuilderSeafood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Automobile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/prototype/Type.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +26,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="abstract-factory" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +79,7 @@
       <recent name="com.foxminded.patterns.factory.dish" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.foxminded.patterns.prototype.Main">
+  <component name="RunManager" selected="Application.com.foxminded.patterns.creational.builder.v2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.factorymethod.Main" />
       <module name="GraspGofPatterns" />
@@ -84,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.foxminded.patterns.creational.abstractfactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.abstractfactory.Main" />
+    <configuration name="com.foxminded.patterns.creational.builder.v1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.builder.v1.Main" />
       <module name="GraspGofPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.foxminded.patterns.creational.abstractfactory.*" />
+          <option name="PATTERN" value="com.foxminded.patterns.creational.builder.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.foxminded.patterns.creational.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.builder.Main" />
+    <configuration name="com.foxminded.patterns.creational.builder.v2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.builder.v2.Main" />
       <module name="GraspGofPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.foxminded.patterns.creational.builder.*" />
+          <option name="PATTERN" value="com.foxminded.patterns.creational.builder.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.foxminded.patterns.creational.builder.v2.Main" />
         <item itemvalue="Application.com.foxminded.patterns.prototype.Main" />
-        <item itemvalue="Application.com.foxminded.patterns.abstractfactory.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
