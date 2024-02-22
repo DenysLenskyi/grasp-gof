@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff9244-d5a3-48c8-bfe1-868d4f8db6c4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/BeckonPizzaDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/MushroomsPizzaDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/structural/decorator/PizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/Emergency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/EmergencyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/emergency/CriminalEmergencyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/emergency/EmergencyCodeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/emergency/FireEmergencyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/foxminded/patterns/behavioral/chainofresponsibility/emergency/HealthEmergencyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="composite" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,14 +71,14 @@
       <recent name="com.foxminded.patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.foxminded.patterns.behavioral.chainofresponsibility.emergency" />
       <recent name="com.foxminded.patterns.structural.decorator" />
       <recent name="com.foxminded.patterns.structural.bridge.kitchen" />
       <recent name="com.foxminded.patterns.structural.bridge.dish" />
       <recent name="com.foxminded.patterns.abstractfactory.mealfactory.kitchen" />
-      <recent name="com.foxminded.patterns.abstractfactory.dish.type.kitchen.american" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.foxminded.patterns.structural.decorator.Main">
+  <component name="RunManager" selected="Application.com.foxminded.patterns.behavioral.chainofresponsibility.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.structural.composite.Main" />
       <module name="GraspGofPatterns" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.foxminded.patterns.creational.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.creational.singleton.Main" />
+    <configuration name="com.foxminded.patterns.behavioral.chainofresponsibility.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxminded.patterns.behavioral.chainofresponsibility.Main" />
       <module name="GraspGofPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.foxminded.patterns.creational.singleton.*" />
+          <option name="PATTERN" value="com.foxminded.patterns.behavioral.chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.foxminded.patterns.behavioral.chainofresponsibility.Main" />
         <item itemvalue="Application.com.foxminded.patterns.structural.decorator.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.foxminded.patterns.structural.bridge.Main" />
         <item itemvalue="Application.com.foxminded.patterns.structural.adapter.Main" />
-        <item itemvalue="Application.com.foxminded.patterns.creational.singleton.Main" />
       </list>
     </recent_temporary>
   </component>
