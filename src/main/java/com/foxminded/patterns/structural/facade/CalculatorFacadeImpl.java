@@ -11,21 +11,21 @@ public class CalculatorFacadeImpl implements CalculatorFacade {
   public int calculate(int a, int b, String operationName) {
     int result = 0;
     switch (operationName) {
-      case "sum" -> {
+      case "Add" -> {
         Summariser summariser = new Summariser();
-        result = summariser.sum(a, b);
+        result = summariser.add(a, b);
       }
-      case "multi" -> {
+      case "Multiply" -> {
         Multiplier multiplier = new Multiplier();
         result = multiplier.multiply(a, b);
       }
-      case "sub" -> {
+      case "Subtract" -> {
         Subtracter subtracter = new Subtracter();
         result = subtracter.subtract(a, b);
       }
-      case "div" -> {
+      case "Divide" -> {
         Divider divider = new Divider();
-        result = divider.div(a, b);
+        result = divider.divide(a, b);
       }
       default -> result = -1;
     }
