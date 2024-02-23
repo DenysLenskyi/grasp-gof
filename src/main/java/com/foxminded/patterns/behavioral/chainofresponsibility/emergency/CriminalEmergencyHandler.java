@@ -7,7 +7,7 @@ public class CriminalEmergencyHandler extends EmergencyCodeHandler {
   public CriminalEmergencyHandler() {}
 
   @Override
-  public String getResponse(int code) {
+  public String handleRequest(Integer code) {
     if (code == 102) {
       return CRIMINAL_EMERGENCY_RESPONSE;
     }

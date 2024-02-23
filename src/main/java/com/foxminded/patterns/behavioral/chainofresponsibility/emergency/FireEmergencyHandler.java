@@ -7,7 +7,7 @@ public class FireEmergencyHandler extends EmergencyCodeHandler {
   public FireEmergencyHandler() {}
 
   @Override
-  public String getResponse(int code) {
+  public String handleRequest(Integer code) {
     if (code == 101) {
       return FIRE_EMERGENCY_RESPONSE;
     }

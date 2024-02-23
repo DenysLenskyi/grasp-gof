@@ -7,7 +7,7 @@ public class HealthEmergencyHandler extends EmergencyCodeHandler {
   public HealthEmergencyHandler() {}
 
   @Override
-  public String getResponse(int code) {
+  public String handleRequest(Integer code) {
     if (code == 103) {
       return HEALTH_EMERGENCY_RESPONSE;
     }
