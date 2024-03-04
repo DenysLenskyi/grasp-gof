@@ -6,8 +6,12 @@ import java.util.List;
 public class Pizza {
   private List<String> ingredients;
 
-  public Pizza(List<String> ingredients) {
-    this.ingredients = ingredients;
+  public Pizza() {
+    this.ingredients = new ArrayList<>();
+  }
+
+  public void addIngredient(String ingredient) {
+    this.ingredients.add(ingredient);
   }
 
   public void printIngredients() {

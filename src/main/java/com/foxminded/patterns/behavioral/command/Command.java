@@ -2,5 +2,5 @@ package com.foxminded.patterns.behavioral.command;
 
 public interface Command {
 
-  Pizza cookPizza();
+  void cookPizza(Pizza pizza);
 }
