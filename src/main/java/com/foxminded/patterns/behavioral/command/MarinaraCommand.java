@@ -5,11 +5,9 @@ import java.util.List;
 
 public class MarinaraCommand implements Command {
   @Override
-  public Pizza cookPizza() {
-    List<String> ingredients = new ArrayList<>();
-    ingredients.add("Cheese");
-    ingredients.add("Tomato");
-    ingredients.add("Seafood");
-    return new Pizza(ingredients);
+  public void cookPizza(Pizza pizza) {
+    pizza.addIngredient("Cheese");
+    pizza.addIngredient("Tomato");
+    pizza.addIngredient("Seafood");
   }
 }

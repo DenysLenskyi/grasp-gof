@@ -5,10 +5,8 @@ import java.util.List;
 
 public class MargoCommand implements Command {
   @Override
-  public Pizza cookPizza() {
-    List<String> ingredients = new ArrayList<>();
-    ingredients.add("Cheese");
-    ingredients.add("Tomato");
-    return new Pizza(ingredients);
+  public void cookPizza(Pizza pizza) {
+    pizza.addIngredient("Cheese");
+    pizza.addIngredient("Tomato");
   }
 }

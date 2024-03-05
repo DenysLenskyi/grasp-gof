@@ -5,9 +5,7 @@ import java.util.List;
 
 public class UnknownCommand implements Command {
   @Override
-  public Pizza cookPizza() {
-    List<String> ingredients = new ArrayList<>();
-    ingredients.add("unknown...");
-    return new Pizza(ingredients);
+  public void cookPizza(Pizza pizza) {
+    pizza.addIngredient("unknown...");
   }
 }
