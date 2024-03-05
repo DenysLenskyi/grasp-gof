@@ -1,21 +1,31 @@
 package com.foxminded.patterns.structural.bridge;
 
-import com.foxminded.patterns.structural.bridge.kitchen.AmericanKitchen;
-import com.foxminded.patterns.structural.bridge.kitchen.JapaneseKitchen;
-import com.foxminded.patterns.structural.bridge.kitchen.Kitchen;
-import com.foxminded.patterns.structural.bridge.kitchen.UkrainianKitchen;
+import com.foxminded.patterns.structural.bridge.dish.Dish;
+import com.foxminded.patterns.structural.bridge.meal.AmericanMeal;
+import com.foxminded.patterns.structural.bridge.meal.JapaneseMeal;
+import com.foxminded.patterns.structural.bridge.meal.Meal;
+import com.foxminded.patterns.structural.bridge.meal.UkrainianMeal;
+
+import java.util.List;
 
 public class Main {
   public static void main(String[] args) {
-    Kitchen ukr = new UkrainianKitchen();
-    ukr.cookMeal();
-    System.out.println();
+    Meal ukr = new UkrainianMeal();
+    ukr.addFirstDish(new Dish());
+    ukr.addSecondDish(new Dish());
+    ukr.addThirdDish(new Dish());
 
-    Kitchen jap = new JapaneseKitchen();
-    jap.cookMeal();
-    System.out.println();
+    Meal usa = new AmericanMeal();
+    usa.addFirstDish(new Dish());
+    usa.addSecondDish(new Dish());
+    usa.addThirdDish(new Dish());
 
-    Kitchen usa = new AmericanKitchen();
-    usa.cookMeal();
+    Meal jap = new JapaneseMeal();
+    jap.addFirstDish(new Dish());
+    jap.addSecondDish(new Dish());
+    jap.addThirdDish(new Dish());
+
+    List<Meal> meals = List.of(ukr, jap, usa);
+    meals.forEach(Meal::printMeal);
   }
 }
