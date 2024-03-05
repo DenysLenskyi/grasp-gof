@@ -5,25 +5,27 @@ import java.time.LocalTime;
 
 public abstract class FileWriter {
 
-        protected StringBuilder content;
+  protected StringBuilder content;
 
-        public void writeCurrentDate() {
-                if (this.content == null) {
-                        this.content = new StringBuilder();
-                }
-                content.append(LocalDate.now()).append('\n');
-        }
+  public FileWriter() {
+    this.content = new StringBuilder();
+  }
 
-        public void writeCurrentTime() {
-                if (this.content == null) {
-                        this.content = new StringBuilder();
-                }
-                content.append(LocalTime.now()).append('\n');
-        }
+  public void writeToFile(String string) {
+    writeContent(string);
+    addDate();
+    addTime();
+  }
 
-        public abstract void writeToFile();
+  private void writeContent(String string) {
+    this.content.append(string).append('\n');
+  }
 
-        public String getOutput() {
-                return this.content.toString();
-        }
+  protected abstract void addDate();
+
+  protected abstract void addTime();
+
+  public void getOutput() {
+    System.out.println(this.content.toString());
+  }
 }
