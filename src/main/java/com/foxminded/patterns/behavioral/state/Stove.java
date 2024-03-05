@@ -1,10 +1,13 @@
 package com.foxminded.patterns.behavioral.state;
 
 public interface Stove {
+        void setState(StoveState state);
 
-  void getReady();
+        void cookPizza();
 
-  void cookPizza();
+        void getReadyForWork();
 
-  void coolDown();
+        void overheat();
+
+        void coolDown();
 }

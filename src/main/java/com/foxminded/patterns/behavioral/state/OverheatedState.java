@@ -1,15 +1,15 @@
 package com.foxminded.patterns.behavioral.state;
 
-public class ColdState implements StoveState {
+public class OverheatedState implements StoveState {
 
   @Override
   public void cookPizza() {
-    throw new RuntimeException("I'm cold, cant cook.");
+    throw new RuntimeException("Overheated!");
   }
 
   @Override
   public void coolDown(Stove stove) {
-    System.out.println("The stove has been cooled down already");
+    stove.setState(new ColdState());
   }
 
   @Override
@@ -19,6 +19,6 @@ public class ColdState implements StoveState {
 
   @Override
   public void overheat(Stove stove) {
-    System.out.println("Can't overheat from the Cold state");
+    System.out.println("Already overheated!");
   }
 }

@@ -1,6 +1,12 @@
 package com.foxminded.patterns.behavioral.state;
 
-public abstract class StoveState {
+public interface StoveState {
 
-  public abstract void cookPizza();
+  void cookPizza();
+
+  void coolDown(Stove stove);
+
+  void prepareForWork(Stove stove);
+
+  void overheat(Stove stove);
 }
