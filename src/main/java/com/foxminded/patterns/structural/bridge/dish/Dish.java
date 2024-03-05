@@ -6,6 +6,8 @@ public class Dish {
   private String name;
   private DishType dishType;
 
+  public Dish() {}
+
   public Dish(String name, DishType dishType) {
     this.name = name;
     this.dishType = dishType;
