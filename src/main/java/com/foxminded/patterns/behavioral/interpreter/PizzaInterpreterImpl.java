@@ -41,7 +41,8 @@ public class PizzaInterpreterImpl implements PizzaInterpreter {
   }
 
   private Pizza makeCustomPizza(Waiter waiter, String name, List<String> ingredients) {
-    Pizza pizza = waiter.getCommand(name).cookPizza();
+    Pizza pizza = new Pizza();
+    waiter.getCommand(name).cookPizza(pizza);
     ingredients.forEach(pizza::addIngredient);
     return pizza;
   }
